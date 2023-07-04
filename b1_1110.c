@@ -20,3 +20,5 @@ int main(void) {
     printf("%d", cnt);
     return 0;
 }
+
+// 1. 변수 개수 제한에 대하여 : 
