@@ -15,7 +15,7 @@ int main(){
         max = 0;
         for (int j = 0; j < i; j++){
             if(sequence[i] > sequence[j])
-                max = dp[j] > max ? dp[j] : max;
+                max = dp[j] >= max ? dp[j] : max;
         }
         dp[i] = max + 1;
         rst = cmp(rst, dp[i]);
@@ -26,4 +26,4 @@ int main(){
 }
 
 /* q. 처음 코드 짤 때, cmp함수 정의에서 (n > m)으로 조건을 달아줬는데,
-그러면 n == m 인 경우는 어떻게 처리해주는 것인가? 왜 통과를 받았는가? */
+그러면 n == m 인 경우는 어떻게 처리해주는 것인가? 왜 통과를 받았는가? 18번 줄도! */
