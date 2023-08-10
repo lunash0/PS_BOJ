@@ -19,12 +19,11 @@ int main(){
     int n;
     scanf("%d", &n);
     char ***people = (char ***)calloc(n, sizeof(char **));
-    // 이름 : people[i][0], 년도: people[i][3], 월: people[i][2], 일: people[i][1]
 
     for (int i = 0; i < n; i++){
         people[i] = (char **)calloc(4, sizeof(char *));
         for (int j = 0; j < 4; j++){
-            people[i][j] = (char *)calloc(16, sizeof(char)); // 왜 scanf여따넣으면 안돼..?
+            people[i][j] = (char *)calloc(16, sizeof(char));
         }
     }
     for (int i = 0; i < n; i++){
