@@ -1,0 +1,60 @@
+{
+  "metaData": {
+    "Raw data ID": "IMG_D_A1_015898.jpg",
+    "copyrighter": "\u321c\ubbf8\uc18c\uc815\ubcf4\uae30\uc220",
+    "resolution": "1920X1080",
+    "date": "2021-11-09",
+    "breed": "\ub9d0\ud2f0\uc988",
+    "age": "1",
+    "gender": "M",
+    "region": "B",
+    "camera type": "IMG",
+    "species": "D",
+    "lesions": "A1",
+    "diagnosis": "",
+    "Path": "\uc720\uc99d\uc0c1",
+    "identifier": "\ud53c\ubd80\uc9c8\ud658",
+    "src_path": "/\ub77c\ubca8\ub9c1\ub370\uc774\ud130/\ubc18\ub824\uacac/\ud53c\ubd80/\uc77c\ubc18\uce74\uba54\ub77c/\uc720\uc99d\uc0c1/A1_\uad6c\uc9c4_\ud50c\ub77c\ud06c",
+    "label_path": "/\ub77c\ubca8\ub9c1\ub370\uc774\ud130/\ubc18\ub824\uacac/\ud53c\ubd80/\uc77c\ubc18\uce74\uba54\ub77c/\uc720\uc99d\uc0c1/A1_\uad6c\uc9c4_\ud50c\ub77c\ud06c",
+    "type": "json",
+    "fileformat": "jpg"
+  },
+  "inspRejectYn": "N",
+  "labelingInfo": [
+    {
+      "polygon": {
+        "color": "#1beaac",
+        "location": [
+          {
+            "x1": 883,
+            "y1": 473,
+            "x2": 868,
+            "y2": 473,
+            "x3": 858,
+            "y3": 495,
+            "x4": 860,
+            "y4": 519,
+            "x5": 879,
+            "y5": 521,
+            "x6": 893,
+            "y6": 508,
+            "x7": 893,
+            "y7": 495,
+            "x8": 883,
+            "y8": 473
+          }
+        ],
+        "label": "A1_\uad6c\uc9c4_\ud50c\ub77c\ud06c",
+        "type": "polygon"
+      }
+    },
+    {
+      "box": {
+        "color": "#1beaac",
+        "location": [{ "x": 858, "y": 473, "width": 35, "height": 48 }],
+        "label": "A1_\uad6c\uc9c4_\ud50c\ub77c\ud06c",
+        "type": "box"
+      }
+    }
+  ]
+}
